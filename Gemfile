@@ -34,6 +34,8 @@ end
 
 gem 'simple_form'
 gem 'bootstrap-sass', '~> 3.1.1'
+gem 'carrierwave'
+
 
 
 # Use ActiveModel has_secure_password

@@ -8,10 +8,14 @@
 	<%= simple_form_for @post do |f| %>
 		<%= f.input :title, label: 'What is this image about?', placeholder: 'Drunken monkey, racing rhino' %>
 		<br/>
+
 		<%= f.input :description, label: 'Tell me more', placeholder: 'monkey eats banana' %>
 		<%= f.button :submit, :class => 'btn btn-warning' %>
 		<br/>
 
+		<%= f.input :image %>
+		<br/>
+		<%= f.button :submit, :class => 'btn btn-warning' %>
 	<% end %>
 
 </div>
